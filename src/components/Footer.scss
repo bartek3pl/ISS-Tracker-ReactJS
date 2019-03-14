@@ -1,0 +1,26 @@
+
+.footer
+{
+  position: fixed;
+  bottom: -650px;
+  width: 100%;
+    img 
+    {
+      width: 800px;
+      height: 800px;
+      overflow: hidden;
+      display: table;
+      position: relative;
+      margin: auto;
+      animation: rotation 180s linear 0s infinite alternate;
+    }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}

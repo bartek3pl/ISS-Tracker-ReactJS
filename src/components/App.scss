@@ -1,0 +1,68 @@
+$font-color: #fff;
+$gd-color1: #1D2671;
+$gd-color2: #C33764;
+
+html
+{
+  font-size: 62.5%;
+}
+
+body
+{
+  font-size: 24px;
+  color: $font-color;
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, $gd-color1, $gd-color2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, $gd-color1, $gd-color2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0; 
+  height: 100%;
+}
+
+.App
+{
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 75px 350px 100px;
+  grid-template-areas:
+    "header"
+    "checkbox"
+    "tracker"
+    "footer";
+  animation: show-content 1s ease 0s;
+}
+
+.header {
+  grid-area: header;
+  align-self: center;
+}
+
+.checkbox {
+  grid-area: checkbox;
+  align-self: end;
+  justify-self: center;
+}
+
+.tracker {
+  grid-area: tracker;
+  align-self: center;
+}
+
+.footer {
+  grid-area: footer;
+  justify-self: center;
+}
+
+@keyframes show-content {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+

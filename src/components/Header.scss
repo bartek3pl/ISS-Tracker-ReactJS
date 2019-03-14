@@ -1,0 +1,61 @@
+$bg-color1: #222;
+$bg-color2: #333;
+$bd-color: #fff;
+
+.iss
+{
+  display: none;
+  position: absolute;
+  left: 40%;
+  top: 80%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  animation: fly 4s ease-in-out 0s infinite alternate-reverse;
+    img 
+    {
+      width: 300px;
+      height: 150px;
+    }
+}
+
+@keyframes fly {
+  0% {
+    left: 37%;
+    transform: rotate(-10deg);
+  }
+  100% {
+    left: 40%;
+    transform: rotate(5deg);
+  }
+}
+
+@media (min-width: 960px) {
+  .iss {
+    display: block;
+  }
+}
+
+.header
+{
+  border-bottom: 2px solid $bd-color;
+  background: linear-gradient(to top, $bg-color1, $bg-color2);
+    .title
+    {
+      color: $bd-color;
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+      font-family: 'Bungee Outline', cursive;
+      font-size: calc(0.03125 * 100vw + 3.5rem); //css-locks
+      text-align: center;
+    }
+}
+
+@media (min-width: 960px) {
+  .header .title {
+    margin: -30px 0;
+  }
+}
+
+
+
