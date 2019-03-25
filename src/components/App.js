@@ -13,7 +13,7 @@ class App extends Component {
     this.state = {
       velocity: 0,
       distance: 0, 
-      time: -2, //w sekundach
+      time: -2, 
       
       first_data: {
         message: "",
