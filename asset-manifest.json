@@ -1,0 +1,15 @@
+{
+  "main.css": "/ISS-Tracker-ReactJS/static/css/main.c6fcf1f2.chunk.css",
+  "main.js": "/ISS-Tracker-ReactJS/static/js/main.e224a382.chunk.js",
+  "main.js.map": "/ISS-Tracker-ReactJS/static/js/main.e224a382.chunk.js.map",
+  "runtime~main.js": "/ISS-Tracker-ReactJS/static/js/runtime~main.30a3ca94.js",
+  "runtime~main.js.map": "/ISS-Tracker-ReactJS/static/js/runtime~main.30a3ca94.js.map",
+  "static/js/2.b4fcef41.chunk.js": "/ISS-Tracker-ReactJS/static/js/2.b4fcef41.chunk.js",
+  "static/js/2.b4fcef41.chunk.js.map": "/ISS-Tracker-ReactJS/static/js/2.b4fcef41.chunk.js.map",
+  "index.html": "/ISS-Tracker-ReactJS/index.html",
+  "precache-manifest.ddf4f890c1f3054b635b55585d71b7dc.js": "/ISS-Tracker-ReactJS/precache-manifest.ddf4f890c1f3054b635b55585d71b7dc.js",
+  "service-worker.js": "/ISS-Tracker-ReactJS/service-worker.js",
+  "static/css/main.c6fcf1f2.chunk.css.map": "/ISS-Tracker-ReactJS/static/css/main.c6fcf1f2.chunk.css.map",
+  "static/media/earth.png": "/ISS-Tracker-ReactJS/static/media/earth.5405546f.png",
+  "static/media/iss.png": "/ISS-Tracker-ReactJS/static/media/iss.b041a675.png"
+}
