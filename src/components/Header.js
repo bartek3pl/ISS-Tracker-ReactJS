@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import './Header.scss';
 import iss from './iss.png';
+import PropTypes from 'prop-types';
 
 const Header = props => {
   const title = "ISS TRACKER";
@@ -16,6 +17,10 @@ const Header = props => {
       </div>
     </Fragment>
   );
+}
+
+Header.propTypes = {
+  active: PropTypes.bool,
 }
  
 export default Header;

@@ -4,16 +4,13 @@ import Header from './Header.js';
 import Tracker from './Tracker.js';
 import Footer from './Footer.js';
 
-//Treść zadania pozwala zoptymalizować aplikację
-//i przechowywać tylko niezbędne 2 odczyty
-
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       velocity: 0,
       distance: 0, 
-      time: -2, 
+      time: -2, //w sekundach
       
       first_data: {
         message: "",
@@ -129,5 +126,5 @@ class App extends Component {
     );
   }
 }
- 
+
 export default App;

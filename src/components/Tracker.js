@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import './Tracker.scss';
+import PropTypes from 'prop-types';
 
 function getDate(timestamp) {
   const date = new Date(timestamp*1000);
@@ -14,7 +15,7 @@ function getDate(timestamp) {
 }
 
 const Tracker = props => {
-  const {timestamp} = props.data;
+  const {timestamp} = props.data; 
   const {latitude, longitude} = props.data.iss_position;
   const degree = '°';
   
@@ -41,6 +42,18 @@ const Tracker = props => {
       </div>
     </Fragment>
   );
+}
+
+Tracker.propTypes = {
+  active: PropTypes.bool,
+  data: PropTypes.objectOf(PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.number,
+    PropTypes.string
+  ])),
+  click: PropTypes.func,
+  velocity: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  distance: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 }
  
 export default Tracker;
