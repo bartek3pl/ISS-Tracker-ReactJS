@@ -1,30 +1,49 @@
-# ISS-Tracker
+# ISS Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Usage](#usage)
+  * [Installation](#installation)
+* [Contact](#contact)
+ 
+ 
+ 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+ISS Tracker is a simple React.js app to track current position of International Space Station. 
+ 
+### Built With
+I have built this application using:
+* [ECMAScript 6+](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources) 
+* [React](https://reactjs.org/)
+* [Bootstrap](https://popmotion.io/)
+* [SASS](https://sass-lang.com/e)
+ 
+ 
+<!-- GETTING STARTED -->
+## Getting Started
+ 
+How to use application
+ 
+### Usage
+ 
+Try it yourself -> https://bartek3pl.github.io/ISS-Tracker-ReactJS/ 
+ 
+### Installation and running on localhost
+ 
+1. Download this repository.
+2. Run ```npm install``` command in project's root.
+3. Run ```npm start``` and have fun!
+ 
+<!-- CONTACT -->
+## Contact
+ 
+My Email - bartekh1998@op.pl
+ 
+Project Link: [https://github.com/bartek3pl/ISS-Tracker-ReactJS](https://github.com/bartek3pl/ISS-Tracker-ReactJS)
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
